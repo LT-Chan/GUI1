@@ -18,9 +18,12 @@ body{
 }
 
 #header-main{
-	background-color: #89CFF0;
+	background-image:url('../img/neo.gif');
+	background-position: center;
 	color: white;
+	font-family: Lucida Handwriting, Brush Script MT, sans-serif;
 	line-height: 1.7em;
+	text-align: center;
 }
 
 .table-courses{
