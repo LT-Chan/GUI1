@@ -16,7 +16,8 @@ body{
 	margin: auto;
 	overflow: hidden;
 }
-
+	/* Header based off of: 
+	https://www.w3schools.com/howto/howto_css_style_header.asp */
 #header-main{
 	background-image:url('../img/neo.gif');
 	background-position: center;
@@ -24,8 +25,9 @@ body{
 	font-family: Lucida Handwriting, Brush Script MT, sans-serif;
 	line-height: 1.7em;
 	text-align: center;
+	opacity: 0.8;
 }
-
+	/* Tables from: https://www.w3schools.com/html/html_tables.asp */
 .table-courses{
 	border-collapse:collapse;
 	width: 42em;
@@ -39,6 +41,9 @@ body{
 	border-bottom: 2px dashed grey;	
 }
 
+	/* Below three uses css tabling style from: 
+	https://www.w3schools.com/Css/css_table_style.asp */
+
 .table-courses tbody tr:nth-child(even){
 	background-color: #D3D3D3;
 }
@@ -51,7 +56,7 @@ body{
 }
 
 
-
+	/* simple CSS footer*/
 #footer-main{
 	color: black;
 	text-align: right;
