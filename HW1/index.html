@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Lok Tung Chan, UMass Lowell Computer Science, lchan@cs.uml.edu
+Copyright (c) 2021 by Lok Tung. All rights reserved. May be freely copied or excerpted with credit to the author.
+updated by LC on September 13, 2022 at 10:53 PM EST
+-->
+<html lang="en">
+  <head>
+		<!-- Basic CSS+JavaScript linking, only CSS is used right now-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="script.js"></script>
+	
+<title>GUI 1 HW</title>
+		<!-- charset is set to standard UTF-->
+    <meta charset="UTF-8">
+		<!-- HTML Favicons
+		Read more at: https://www.w3schools.com/html/html_favicon.asp-->
+	<link rel="icon" type="image/x-icon" href="/img/famicon.ico">
+	
+    
+  </head>
+  
+	<!-- Main Body -->
+  <body>
+    <header id="header-main">
+		<div class = "container">
+			<h1>Welcome to my simple website</h1>
+		</div>
+    </header>
+	
+    
+        <p>This is my work in progress website that uses HTML, CSS, JavaScript, & JQuery</p>
+    	
+	<hr />
+	
+
+    <h2>About this website!</h2>
+		<!-- Paragraph, 
+		read more: https://www.w3schools.com/html/html_paragraphs.asp
+		self-->
+	
+	<p> 
+		I am using the textbook <cite>HTML CSS Design and Build Websites</cite> to help build this site. 
+		<br />
+		And these are the computer science courses I have left to take, clicking on the class number takes you to the relative page if you're interested in reading  what the courses are:
+	</p>
+	
+
+			<!--Table: 
+			read: https://www.w3schools.com/html/html_tables.asp
+			Styling done in CSS file
+			-->
+		<table class="table-courses">
+			<thead>
+				<tr>
+					<th>Class Number</th>
+					<th>Class Name</th>
+					<th>Class Location</th>
+					<th>Professor</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td><a href="https://www.uml.edu/catalog/courses/COMP/2300">COMP.2300</a></td>
+					<td><abbr title="Introduction to Computer Security">Intro to Comp Sec</abbr></td>
+					<td>WAN-445</td>
+					<td>S. Narain</td>
+				</tr>
+				
+				<tr>
+					<td><a href="https://www.uml.edu/catalog/courses/COMP/4610">COMP.4610</a></td>
+					<td><abbr title="Graphical User Inferface"> GUI</abbr> Programming I</td>
+					<td>FAL-313</td>
+					<td>W. Zhou</td>
+				</tr>
+				
+				<tr>
+					<td><a href="https://www.uml.edu/catalog/courses/COMP/4650">COMP.4650</a></td>
+					<td><abbr title="Introduction to IoT Security and Privacy">Internet of Things</abbr></td>
+					<td colspan="2">Information TBD</td>
+				</tr>
+				
+				<tr>
+					<td><a href="https://www.uml.edu/catalog/courses/COMP/4220">COMP.4220</a></td>
+					<td>Machine Learning</td>
+					<td colspan="2">Information TBD</td>
+				</tr>
+				
+			</tbody>
+		</table>
+	<p>
+		<br />Below is an image to the university where I'm taking this course!
+		<br />
+			<!-- Images with url upon clicking
+			read more: https://www.w3schools.com/html/html_images.asp-->
+		<a href="https://www.uml.edu">
+			<img src="img/uml.jpg" alt="This is an photo of my university" width="280" height="200">
+		</a>
+	</p>
+		<!-- CSS validator snippet-->
+	<p>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img style="border:0;width:88px;height:31px"
+				src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+				alt="Valid CSS!" />
+		</a>
+	</p>
+	
+	
+		<!-- footer -->
+	<footer id="footer-main">
+		<p>Copyright @ 2022; Lok Tung Chan</p>
+	</footer>
+  </body>
+</html>
