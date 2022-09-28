@@ -1,0 +1,104 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+
+	
+#wrapper{
+	min-width: 600px;
+	width: 80%;
+	border: 0px;
+	margin: auto;
+	background-color: #91c8e4;
+}
+
+	/* Changing the */
+body {
+	background: #00569f url("ptrbackground.jpg") repeat-x fixed center top;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+	/*Header settings*/
+header{
+	background:#000033 url('sunset.jpg') no-repeat right;
+		/*
+			background-blend-mode: normal ended up to be useless.
+			The solution was to change the background color.
+		*/
+	color: white;
+	font-family: Lucida Handwriting, Brush Script MT, sans-serif;
+	line-height: 1.7em;
+	text-align: left;
+	opacity: 0.8;
+}
+
+	/*Set the float to left to give illusion of left-right box for content.
+	Also size to slightly larger and bold and removed the list dots*/
+nav ul {
+	float: left;
+		/* Font shorthand for below two font doesn't work*/
+	font-size: 1.2em;
+	font-weight: bold;
+	list-style-type: none;
+}
+	
+	/*nav:a below based off of https://www.w3schools.com/Css/css_link.asp*/
+nav a:link {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+h1 {
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+	
+#content{
+	background-color: white;
+	text-align: left;
+	padding: 0.1% 20px 20px 20px;
+	font-size: 90%;
+	list-style: circle inside url("marker.gif");
+	margin-left: 200px;
+}
+
+/*FIX INDENTING ON LIST*/
+#content ul{
+	text-indent: 5px;
+}
+
+img {
+	float: left;
+	margin-right: 5%;
+}
+
+h2 {
+	color: #3399CC;
+}
+h1,h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: white;
+	padding:0px 1.8% 5px ;
+	font-size: 10px;
+	margin-left: 200px;
+}
+
