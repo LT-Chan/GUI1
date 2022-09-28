@@ -1,3 +1,12 @@
+/*
+Lok Tung Chan GUI I HW2
+Copyright 2022, last updated 11:26 September 27th
+
+pacific.css (this file) is used to style index.html. 
+
+*/
+
+
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
