@@ -1,0 +1,92 @@
+/*
+Lok Tung Chan GUI I HW3
+Copyright 2022, last updated 10:26 November 1st
+style.css (this file) is used to style index.html. 
+*/
+
+
+header{
+	padding: 5px;
+	text-align: center;
+	background: #c9c9ff;
+	color: black;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+body{
+	background-color: #f1cbff;
+}
+
+#divform{
+	border-style: solid;
+	border-color: red;
+	background-color: azure;
+	border-radius: 15px;
+	padding: 5px;
+	max-width: 550px;
+	margin: 15px 37%;
+	padding: 5px 10px 15px 10px;
+	text-align:center;
+}
+
+
+input {
+  width: 100px;
+}
+
+button {
+	background-color: #FFB3BA; /* Green */
+	border: none;
+	border-radius: 15%;
+	color: white;
+	padding: 7px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+button:active {
+	background-color: #c5a2c5;
+}
+
+
+#tablediv{
+	width: 550px;
+	max-height: 550px;
+	table-layout: fixed;
+	overflow: auto;
+	padding: 3px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th{
+	background-color: azure;
+	position: sticky;
+	left:0;
+	top: 0;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: center;
+	border: solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+th{
+	border:solid black;
+}
+tr{
+	border: solid black;
+}
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+GUI Assignment: Dynamic Table
+Lok Tung Chan, UMass Lowell Computer Science, lchan@cs.uml.edu
+Copyright (c) 2021 by Lok Tung. All rights reserved. May be freely copied or excerpted with credit to the author.
+updated by LC on November 1st, 2022 at 10:40 PM EST
+-->
+<html lang="en">
+  <head>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <script src="js/script.js"></script>
+	
+	
+  <title>GUI 1 HW</title>
+    <meta charset="UTF-8">
+    
+  </head>
+  
+	<!-- Main Body -->
+  <body>
+    <header id="header-main">
+		<div class = "container">
+			<h1>Welcome to my dynamic calculator</h1>
+		</div>
+    </header>
+	
+	<div id="divform">
+		<form name = "aform" method = "GET">
+			
+			<br>
+			<label for="fourth_num">Min col</label><br>
+			<input type="number" id="fourth_num" value="4" name="fourth_num" min="-50" max="50" required>
+			
+			<br>
+			<label for="second_num">Max col</label><br>
+			<input type="number" id="second_num" value="50" name="second_num" min="-50" max="50" required>
+			
+			<br>
+			<label for="third_num">Min Row</label><br>
+			<input type="number" id="third_num" value="2" name="third_num" min="-50" max="50" required>
+			
+			
+			<br>
+			<label for="first_num">Max Row </label><br>
+			<input type="number" id="first_num" value="50" name="first_num" min="-50" max="50" required>
+			
+			
+			
+			
+			<br><br>
+			<button type = "reset" onclick="TableRemove();">Reset</button>
+			<button type = "button" onclick="TableCreate()">Submit</button>
+		</form>
+	</div>
+	
+	
+		<!-- footer -->
+	<footer id="footer-main">
+		<p>Copyright @ 2022; Lok Tung Chan</p>
+	</footer>
+  </body>
+</html>
