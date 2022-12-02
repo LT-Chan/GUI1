@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+GUI Assignment: Dynamic Table
+Lok Tung Chan, UMass Lowell Computer Science, lchan@cs.uml.edu
+Copyright (c) 2021 by Lok Tung. All rights reserved. May be freely copied or excerpted with credit to the author.
+updated by LC on December 1st, 2022 at 10:40 PM EST
+-->
+<html lang="en">
+  <head>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+	
+	
+	
+  <title>GUI 1 HW</title>
+    <meta charset="UTF-8">
+    
+  </head>
+  
+	<!-- Main Body -->
+  <body>
+    <header id="header-main">
+		<div class = "container">
+			<h1>Welcome to my dynamic calculator</h1>
+		</div>
+    </header>
+	
+	<div id="divform">
+		<form name = "aform" id = "DFORM" method = "GET">
+			
+			<br>
+			<label for="fourth_num">Min col</label><br>
+			<input type="number"id="fourth_num" value="0" name="fourth_num">
+			
+			<br>
+			<label for="second_num">Max col</label><br>
+			<input type="number" id="second_num" value="5" name="second_num">
+			
+			<br>
+			<label for="third_num">Min Row</label><br>
+			<input type="number" id="third_num" value="2" name="third_num">
+			
+			
+			<br>
+			<label for="first_num">Max Row </label><br>
+			<input type="number" id="first_num" value="46" name="first_num">
+			
+			
+			
+			
+			<br><br>
+			<button type = "reset">Reset</button>
+			<button type = "submit" id="btnsub">Submit</button>
+		</form>
+	</div>
+	
+	
+		<!-- footer -->
+	<footer id="footer-main">
+		<p>Copyright @ 2022; Lok Tung Chan</p>
+	</footer>
+  </body>
+</html>
