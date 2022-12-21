@@ -1,0 +1,107 @@
+/*
+Lok Tung Chan GUI I HW5
+Copyright 2022, last updated 10:12 December 20th.
+style.css (this file) is used to style index.html. 
+*/
+
+
+header{
+	padding: 5px;
+	text-align: center;
+	background: #5e1f61;
+	color: white;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+body{
+	background-color: white;
+}
+
+input {
+  width: 100px;
+}
+
+button {
+	background-color: crimson;
+	border: none;
+	border-radius: 10%;
+	color: white;
+	padding: 7px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+button:active {
+	background-color: #c5a2c5;
+}
+
+
+#boarRow {
+    width: 70vw;
+    height:5vmax;
+    padding-left:0px;
+    padding-right:0px;
+    align-content: center;
+    text-align:center;
+  
+}
+.blankSpace{
+	width: 55px;
+	height: 55px;
+	background-image: url("../img/Scrabble_board_Blank.png");
+	float: left;
+	margin: 2px;
+	border
+}
+
+
+.doubleLetter{
+	background-image: url("../img/Scrabble_board_Double_Letter.png");
+	width: 55px;
+	height: 55px;
+	background-size: 55px;
+	float: left;
+}
+.doubleWord{
+	background-image: url("../img/Scrabble_board_Double_Word.png");
+	width: 55px;
+	height: 55px;
+	background-size: 55px;
+	float: left;
+}
+
+
+#buttonBox{
+	margin:auto;
+	clear: both;
+}
+
+
+#letterRack{
+	background-image: url("../img/holder.png");
+	background-repeat: no-repeat;
+	background-size:contain;
+    width:33vmax;
+    height:10vmax;
+    margin:auto;
+    margin-top:5vh;
+    padding-top:3vmax;
+    padding-left:4vmax;
+}
+
+
+
+.tileRack {
+	width: 55px;
+	height: 55px;
+	float: left;
+}
+.playingTile {
+	width: 55px;
+	height: 55px;
+}
+
+
+

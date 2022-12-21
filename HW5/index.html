@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+GUI Assignment: Dynamic Table
+Lok Tung Chan, UMass Lowell Computer Science, lchan@cs.uml.edu
+Copyright (c) 2021 by Lok Tung. All rights reserved. May be freely copied or excerpted with credit to the author.
+updated by LC on December 1st, 2022 at 10:40 PM EST
+-->
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+		<script src="js/script.js"></script>
+		
+		<link rel="stylesheet" href="css/jquery-ui.css" />
+		<link rel="stylesheet" href="css/jquery-ui.theme.css" />
+		<link rel="stylesheet" href="css/jquery-ui.structure.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<script src ="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.2/jquery-ui.js"></script>
+		
+	
+	<title>GUI 1 HW</title>
+    <meta charset="UTF-8">
+    
+	</head>
+  
+		<!-- Main Body -->
+	<body>
+		<header id="header-main">
+			<div class = "container">
+				<h1>Pseudo Scrabble with Drag-and-Drop</h1>
+			</div>
+		</header>
+		
+		
+			<!-- Score -->
+		<div id="scoreDetails">
+            <p id="scoreNum"></p>
+			<p id="scoreWord"></p>
+			<p id="tilesLeft"></p>
+        </div>
+		
+			<!-- Board -->
+        <div id="boardRow">
+			<div id = "t1"  class = "blankSpace"></div>
+			<div id = "t2"  class = "blankSpace"></div>
+			<div id = "t3"  class = "doubleWord"></div>
+			<div id = "t4"  class = "blankSpace"></div>
+			<div id = "t5"  class = "blankSpace"></div>
+			<div id = "t6"  class = "blankSpace"></div>
+			<div id = "t7"  class = "doubleLetter"></div>
+			<div id = "t8"  class = "blankSpace"></div>
+			<div id = "t9"  class = "doubleLetter"></div>
+			<div id = "t10"  class = "blankSpace"></div>
+			<div id = "t11"  class = "blankSpace"></div>
+			<div id = "t12"  class = "blankSpace"></div>
+			<div id = "t13"  class = "doubleWord"></div>
+			<div id = "t14"  class = "blankSpace"></div>
+			<div id = "t15"  class = "blankSpace"></div>
+		</div>
+		
+		</br>
+	
+		
+	
+			<!-- Buttons -->
+        <div id="buttonBox">
+          <button id="nextWordButton">Submit Word</button>
+          <button id="restartButton">Start Over</button>
+        </div>
+		
+			<!-- Player -->
+		<div id="letterRack">
+			
+			
+			<div id="playerRack">
+				<div id ="r1" class ="tileRack"></div>
+				<div id ="r2" class ="tileRack"></div>
+				<div id ="r3" class ="tileRack"></div>
+				<div id ="r4" class ="tileRack"></div>
+				<div id ="r5" class ="tileRack"></div>
+				<div id ="r6" class ="tileRack"></div>
+				<div id ="r7" class ="tileRack"></div>
+			</div>
+		</div>
+	
+	
+		<!-- footer -->
+	<footer id="footer-main">
+		<p>Copyright @ 2022; Lok Tung Chan</p>
+	</footer>
+  </body>
+</html>
